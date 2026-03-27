@@ -1,0 +1,207 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'myproject'" level="0">
+<item name = "Date">Fri Mar 27 15:02:40 2026
+</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.624 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">32, 32, 0.160 us, 0.160 us, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_73">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s, 4, 4, 20.000 ns, 20.000 ns, 1, 1, yes</column>
+<column name="call_ret2_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config3_s_fu_79">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config3_s, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s_fu_91">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="call_ret4_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config5_s_fu_103">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config5_s, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_s_fu_115">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config7_s_fu_127">softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config7_s, 9, 9, 45.000 ns, 45.000 ns, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 12, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">3, 110, 12581, 4677, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 36, -</column>
+<column name="Register">-, -, 659, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">1, 50, 12, 8, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_73">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s, 0, 30, 3238, 1037, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s_fu_91">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s, 0, 56, 6149, 1957, 0</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_s_fu_115">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config6_s, 0, 21, 2458, 766, 0</column>
+<column name="call_ret2_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config3_s_fu_79">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config3_s, 0, 0, 0, 304, 0</column>
+<column name="call_ret4_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config5_s_fu_103">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config5_s, 0, 0, 0, 304, 0</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config7_s_fu_127">softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config7_s, 3, 3, 736, 309, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_block_pp0_stage0_11001">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp35">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp58">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp82">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_pp0_stage0_11001_ignoreCallOp92">and, 0, 0, 2, 1, 1</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="input_layer_ap_vld_in_sig">9, 2, 1, 2</column>
+<column name="input_layer_ap_vld_preg">9, 2, 1, 2</column>
+<column name="input_layer_blk_n">9, 2, 1, 2</column>
+<column name="input_layer_in_sig">9, 2, 64, 128</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_block_pp0_stage0_subdone_grp0_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter10">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter11">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter12">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter13">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter14">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter15">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter16">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter17">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter18">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter19">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter20">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter21">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter22">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter23">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter24">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter25">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter26">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter27">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter28">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter29">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter30">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter31">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter32">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter5">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter6">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter7">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter8">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter9">1, 0, 1, 0</column>
+<column name="input_layer_ap_vld_preg">1, 0, 1, 0</column>
+<column name="input_layer_preg">64, 0, 64, 0</column>
+<column name="layer2_out_1_reg_303">16, 0, 16, 0</column>
+<column name="layer2_out_2_reg_308">16, 0, 16, 0</column>
+<column name="layer2_out_3_reg_313">16, 0, 16, 0</column>
+<column name="layer2_out_4_reg_318">16, 0, 16, 0</column>
+<column name="layer2_out_5_reg_323">16, 0, 16, 0</column>
+<column name="layer2_out_6_reg_328">16, 0, 16, 0</column>
+<column name="layer2_out_7_reg_333">16, 0, 16, 0</column>
+<column name="layer2_out_reg_298">16, 0, 16, 0</column>
+<column name="layer3_out_1_reg_343">16, 0, 16, 0</column>
+<column name="layer3_out_2_reg_348">16, 0, 16, 0</column>
+<column name="layer3_out_3_reg_353">16, 0, 16, 0</column>
+<column name="layer3_out_4_reg_358">16, 0, 16, 0</column>
+<column name="layer3_out_5_reg_363">16, 0, 16, 0</column>
+<column name="layer3_out_6_reg_368">16, 0, 16, 0</column>
+<column name="layer3_out_7_reg_373">16, 0, 16, 0</column>
+<column name="layer3_out_reg_338">16, 0, 16, 0</column>
+<column name="layer4_out_1_reg_383">16, 0, 16, 0</column>
+<column name="layer4_out_2_reg_388">16, 0, 16, 0</column>
+<column name="layer4_out_3_reg_393">16, 0, 16, 0</column>
+<column name="layer4_out_4_reg_398">16, 0, 16, 0</column>
+<column name="layer4_out_5_reg_403">16, 0, 16, 0</column>
+<column name="layer4_out_6_reg_408">16, 0, 16, 0</column>
+<column name="layer4_out_7_reg_413">16, 0, 16, 0</column>
+<column name="layer4_out_reg_378">16, 0, 16, 0</column>
+<column name="layer5_out_1_reg_423">16, 0, 16, 0</column>
+<column name="layer5_out_2_reg_428">16, 0, 16, 0</column>
+<column name="layer5_out_3_reg_433">16, 0, 16, 0</column>
+<column name="layer5_out_4_reg_438">16, 0, 16, 0</column>
+<column name="layer5_out_5_reg_443">16, 0, 16, 0</column>
+<column name="layer5_out_6_reg_448">16, 0, 16, 0</column>
+<column name="layer5_out_7_reg_453">16, 0, 16, 0</column>
+<column name="layer5_out_reg_418">16, 0, 16, 0</column>
+<column name="layer6_out_1_reg_463">16, 0, 16, 0</column>
+<column name="layer6_out_2_reg_468">16, 0, 16, 0</column>
+<column name="layer6_out_reg_458">16, 0, 16, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="input_layer_ap_vld">in, 1, ap_vld, input_layer, pointer</column>
+<column name="input_layer">in, 64, ap_vld, input_layer, pointer</column>
+<column name="layer7_out_0">out, 16, ap_vld, layer7_out_0, pointer</column>
+<column name="layer7_out_0_ap_vld">out, 1, ap_vld, layer7_out_0, pointer</column>
+<column name="layer7_out_1">out, 16, ap_vld, layer7_out_1, pointer</column>
+<column name="layer7_out_1_ap_vld">out, 1, ap_vld, layer7_out_1, pointer</column>
+<column name="layer7_out_2">out, 16, ap_vld, layer7_out_2, pointer</column>
+<column name="layer7_out_2_ap_vld">out, 1, ap_vld, layer7_out_2, pointer</column>
+</table>
+</item>
+</section>
+</profile>

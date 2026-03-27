@@ -1,0 +1,149 @@
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:4:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/parameters.h:10:
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:402:40: warning: unexpected pragma argument 'softmax', expects function/operation [-Winvalid-hls-pragmas]
+    #pragma HLS allocation instances = softmax<CONFIG_T> limit = CONFIG_T::parallelization_factor function
+                                       ^
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:4:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/parameters.h:12:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense.h:7:
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h:33:17: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+        #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+                ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h:33:17: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all 
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h:107:17: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+        #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+                ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h:107:17: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all 
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h:189:17: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+        #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+                ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h:189:17: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all 
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:3:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.h:4:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_fixed.h:10:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:16:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_int.h:11:
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_base.h:1209:12: error: use of undeclared identifier '__fpga_ctlz'
+    return __fpga_ctlz(this->V);
+           ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1100:17: note: in instantiation of member function 'ap_int_base<16, false>::countLeadingZeros' requested here
+    int l = tmp.countLeadingZeros();  ///< number of leading zeros.
+                ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1184:56: note: in instantiation of member function 'ap_fixed_base<16, 6, true, AP_TRN, AP_WRAP, 0>::to_float' requested here
+  AP_INLINE AP_NODEBUG operator float() const { return to_float(); }
+                                                       ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:138:19: note: in instantiation of member function 'ap_fixed_base<16, 6, true, AP_TRN, AP_WRAP, 0>::operator float' requested here
+    return (float)x;
+                  ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:153:19: note: in instantiation of function template specialization 'nnet::softmax_real_val_from_idx<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, 1024>' requested here
+        float x = softmax_real_val_from_idx<data_T, CONFIG_T::exp_table_size>(i) * CONFIG_T::exp_scale;
+                  ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:190:9: note: in instantiation of function template specialization 'nnet::init_exp_table<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        init_exp_table<data_T, CONFIG_T>(exp_table);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:385:9: note: in instantiation of function template specialization 'nnet::softmax_latency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        softmax_latency<data_T, res_T, CONFIG_T>(data, res);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:61:11: note: in instantiation of function template specialization 'nnet::softmax<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+    nnet::softmax<layer6_t, result_t, softmax_config7>(layer6_out, layer7_out); // output_softmax
+          ^
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:3:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.h:4:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_fixed.h:10:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:16:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_int.h:11:
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_base.h:1209:12: error: use of undeclared identifier '__fpga_ctlz'
+    return __fpga_ctlz(this->V);
+           ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1100:17: note: in instantiation of member function 'ap_int_base<18, false>::countLeadingZeros' requested here
+    int l = tmp.countLeadingZeros();  ///< number of leading zeros.
+                ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1184:56: note: in instantiation of member function 'ap_fixed_base<18, 8, true, AP_RND, AP_SAT, 0>::to_float' requested here
+  AP_INLINE AP_NODEBUG operator float() const { return to_float(); }
+                                                       ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:138:19: note: in instantiation of member function 'ap_fixed_base<18, 8, true, AP_RND, AP_SAT, 0>::operator float' requested here
+    return (float)x;
+                  ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:168:19: note: in instantiation of function template specialization 'nnet::softmax_real_val_from_idx<ap_fixed<18, 8, AP_RND, AP_SAT, 0>, 1024>' requested here
+        float x = softmax_real_val_from_idx<data_T, CONFIG_T::inv_table_size>(i);
+                  ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:192:9: note: in instantiation of function template specialization 'nnet::init_invert_table<ap_fixed<18, 8, AP_RND, AP_SAT, 0>, softmax_config7>' requested here
+        init_invert_table<typename CONFIG_T::inv_inp_t, CONFIG_T>(invert_table);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:385:9: note: in instantiation of function template specialization 'nnet::softmax_latency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        softmax_latency<data_T, res_T, CONFIG_T>(data, res);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:61:11: note: in instantiation of function template specialization 'nnet::softmax<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+    nnet::softmax<layer6_t, result_t, softmax_config7>(layer6_out, layer7_out); // output_softmax
+          ^
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:3:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.h:4:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_fixed.h:10:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:16:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_int.h:11:
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_base.h:1209:12: error: use of undeclared identifier '__fpga_ctlz'
+    return __fpga_ctlz(this->V);
+           ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1100:17: note: in instantiation of member function 'ap_int_base<15, false>::countLeadingZeros' requested here
+    int l = tmp.countLeadingZeros();  ///< number of leading zeros.
+                ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1184:56: note: in instantiation of member function 'ap_fixed_base<15, 5, false, AP_TRN, AP_WRAP, 0>::to_float' requested here
+  AP_INLINE AP_NODEBUG operator float() const { return to_float(); }
+                                                       ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:138:19: note: in instantiation of member function 'ap_fixed_base<15, 5, false, AP_TRN, AP_WRAP, 0>::operator float' requested here
+    return (float)x;
+                  ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:153:19: note: in instantiation of function template specialization 'nnet::softmax_real_val_from_idx<ap_ufixed<15, 5, AP_TRN, AP_WRAP, 0>, 1024>' requested here
+        float x = softmax_real_val_from_idx<data_T, CONFIG_T::exp_table_size>(i) * CONFIG_T::exp_scale;
+                  ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:235:9: note: in instantiation of function template specialization 'nnet::init_exp_table<ap_ufixed<15, 5, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        init_exp_table<typename CONFIG_T::inp_norm_t, CONFIG_T>(exp_table, true);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:388:9: note: in instantiation of function template specialization 'nnet::softmax_stable<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        softmax_stable<data_T, res_T, CONFIG_T>(data, res);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:61:11: note: in instantiation of function template specialization 'nnet::softmax<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+    nnet::softmax<layer6_t, result_t, softmax_config7>(layer6_out, layer7_out); // output_softmax
+          ^
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:3:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.h:4:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_fixed.h:10:
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:993:13: warning: shift count is negative [-Wshift-count-negative]
+      ret.V <<= (_AP_I - _AP_W);
+            ^   ~~~~~~~~~~~~~~~
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1025:72: note: in instantiation of member function 'ap_fixed_base<50, 40, true, AP_TRN, AP_WRAP, 0>::to_ap_int_base' requested here
+  HLS_CONSTEXPR_EXTRA AP_INLINE AP_NODEBUG int to_int() const { return to_ap_int_base().to_int(); }
+                                                                       ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1200:74: note: in instantiation of member function 'ap_fixed_base<50, 40, true, AP_TRN, AP_WRAP, 0>::to_int' requested here
+  HLS_CONSTEXPR_EXTRA AP_INLINE AP_NODEBUG operator int() const { return to_int(); }
+                                                                         ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:335:30: note: in instantiation of member function 'ap_fixed_base<50, 40, true, AP_TRN, AP_WRAP, 0>::operator int' requested here
+                data_round = (data_cache[jj] - data_cache[ii]) * CONFIG_T::exp_table_size / 16;
+                             ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:391:9: note: in instantiation of function template specialization 'nnet::softmax_legacy<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        softmax_legacy<data_T, res_T, CONFIG_T>(data, res);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:61:11: note: in instantiation of function template specialization 'nnet::softmax<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+    nnet::softmax<layer6_t, result_t, softmax_config7>(layer6_out, layer7_out); // output_softmax
+          ^
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:3:
+In file included from /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.h:4:
+In file included from /home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_fixed.h:10:
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:993:13: warning: shift count is negative [-Wshift-count-negative]
+      ret.V <<= (_AP_I - _AP_W);
+            ^   ~~~~~~~~~~~~~~~
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1025:72: note: in instantiation of member function 'ap_fixed_base<51, 41, true, AP_TRN, AP_WRAP, 0>::to_ap_int_base' requested here
+  HLS_CONSTEXPR_EXTRA AP_INLINE AP_NODEBUG int to_int() const { return to_ap_int_base().to_int(); }
+                                                                       ^
+/home/thifj/Desktop/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h:1200:74: note: in instantiation of member function 'ap_fixed_base<51, 41, true, AP_TRN, AP_WRAP, 0>::to_int' requested here
+  HLS_CONSTEXPR_EXTRA AP_INLINE AP_NODEBUG operator int() const { return to_int(); }
+                                                                         ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:349:29: note: in instantiation of member function 'ap_fixed_base<51, 41, true, AP_TRN, AP_WRAP, 0>::operator int' requested here
+        int exp_res_index = exp_res[ii] * CONFIG_T::inv_table_size / 64;
+                            ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h:391:9: note: in instantiation of function template specialization 'nnet::softmax_legacy<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+        softmax_legacy<data_T, res_T, CONFIG_T>(data, res);
+        ^
+/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/myproject.cpp:61:11: note: in instantiation of function template specialization 'nnet::softmax<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config7>' requested here
+    nnet::softmax<layer6_t, result_t, softmax_config7>(layer6_out, layer7_out); // output_softmax
+          ^

@@ -1,0 +1,15 @@
+# Caminho para o seu arquivo .h5
+KerasH5: iris_mlp_fixed.h5
+# Configurações do Projeto
+OutputDir: projeto_hls_terminal
+ProjectName: myproject
+Backend: Vivado
+Part: xc7z020clg400-1
+IOType: io_parallel
+
+# Configurações de Hardware
+HLSConfig:
+  Model:
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency # Força otimização de tempo

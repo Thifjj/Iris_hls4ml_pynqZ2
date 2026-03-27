@@ -1,0 +1,757 @@
+---
+MainSourceFile:  /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /media/thifj/Vivado/Vivado/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1036655
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /media/thifj/Vivado/Vivado/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1037125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /media/thifj/Vivado/Vivado/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1037596
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        /media/thifj/Vivado/Vivado/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1332754
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1715992
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1716230
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_56_1:  '
+    FileOffset:      56
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1716725
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_56_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403482
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403817
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404040
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404924
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2405377
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2405422
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2405831
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406044
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2415644
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2415728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2416270
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2416354
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2420565
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2420818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421179
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421995
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2422656
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2424265
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_1:  '
+    FileOffset:      200
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2425197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_2:  '
+    FileOffset:      213
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2425732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2426595
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_2:  '
+    FileOffset:      255
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2426865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_3:  '
+    FileOffset:      268
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2427428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2427665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_1:  '
+    FileOffset:      288
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2428025
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2428982
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2429102
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2429159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_348_4:  '
+    FileOffset:      348
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2429759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_348_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_361_1:  '
+    FileOffset:      361
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2430267
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_361_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2430411
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_405_1:  '
+    FileOffset:      405
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2431606
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_405_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_407_2:  '
+    FileOffset:      407
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2431675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_407_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_409_3:  '
+    FileOffset:      409
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2431744
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_409_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_4:  '
+    FileOffset:      414
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2432000
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_427_1:  '
+    FileOffset:      427
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2432314
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_427_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_457_1:  '
+    FileOffset:      457
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2432951
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_457_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_1:  '
+    FileOffset:      484
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2433787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_498_1:  '
+    FileOffset:      498
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2434129
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_498_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_514_1:  '
+    FileOffset:      514
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2434587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_514_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_532_1:  '
+    FileOffset:      532
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2435057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_532_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2435460
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_566_1:  '
+    FileOffset:      566
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2435855
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_566_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_596_1:  '
+    FileOffset:      596
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2436521
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_596_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_615_1:  '
+    FileOffset:      615
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2437095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_615_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_645_1:  '
+    FileOffset:      645
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2437761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_645_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_664_1:  '
+    FileOffset:      664
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2438315
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2438964
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_721_1:  '
+    FileOffset:      721
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2439802
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_721_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_749_1:  '
+    FileOffset:      749
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2440486
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_749_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_779_1:  '
+    FileOffset:      779
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2441171
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_779_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_808_1:  '
+    FileOffset:      808
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2442011
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_808_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_828_1:  '
+    FileOffset:      828
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2442430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_828_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_1:  '
+    FileOffset:      229
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2448484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_236_2:  '
+    FileOffset:      236
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2448624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_236_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2448889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_4:  '
+    FileOffset:      254
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2449083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_5:  '
+    FileOffset:      258
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2449176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_6:  '
+    FileOffset:      269
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2449502
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_7:  '
+    FileOffset:      273
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2449612
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_297_1:  '
+    FileOffset:      297
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2450578
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_297_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2450664
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2451340
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_211_1:  '
+    FileOffset:      211
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2457674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_220_2:  '
+    FileOffset:      220
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2457952
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_220_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2461173
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2461315
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_338_3:  '
+    FileOffset:      338
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2461519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_338_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2487924
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2489795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+...

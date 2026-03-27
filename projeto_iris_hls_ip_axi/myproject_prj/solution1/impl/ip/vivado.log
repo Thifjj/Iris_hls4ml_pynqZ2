@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Mar 27 15:02:45 2026
+# Process ID         : 560221
+# Current directory  : /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/vivado.log
+# Journal file       : /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/vivado.jou
+# Running On         : thifjrog
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 9 5980HX with Radeon Graphics
+# CPU Frequency      : 2024.053 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16133 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33313 MB
+# Available Virtual  : 25443 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/solution1_data.json outdir=/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip srcdir=/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1 ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/misc
+INFO: Copied 24 verilog file(s) to /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/hdl/verilog
+INFO: Copied 22 vhdl file(s) to /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/hdl/vhdl
+INFO: Import ports from HDL: /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/hdl/vhdl/myproject.vhd (myproject)
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst
+INFO: Add ap_ctrl interface ap_ctrl
+INFO: Add data interface input_layer
+INFO: Add data interface layer7_out_0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/thifj/Desktop/Xilinx/2025.1/Vivado/data/ip'.
+INFO: Add data interface layer7_out_1
+INFO: Add data interface layer7_out_2
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/component.xml
+INFO: Created IP archive /media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/myproject_prj/solution1/impl/ip/xilinx_com_hls_myproject_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 15:02:54 2026...

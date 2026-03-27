@@ -1,0 +1,12 @@
+# Deixamos o pip escolher a versão mais estável compatível com seu Python
+tensorflow>=2.16.0
+numpy<2.0.0
+
+# Ferramenta de conversão para FPGA
+hls4ml[profiling]
+qkeras
+
+# Utilidades
+matplotlib
+pandas
+scikit-learn

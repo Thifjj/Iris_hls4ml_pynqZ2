@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "myproject",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "myproject"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_iris_hls4ml/iris_model/projeto_iris_hls_ip_axi/build_prj.tcl",
+    "sourceLine": 169,
+    "success": true
+  }
+]
