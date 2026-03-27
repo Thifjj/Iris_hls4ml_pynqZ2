@@ -1,0 +1,360 @@
+
+*** Running vivado
+    with args -log design_1_axis_dwidth_converter_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_dwidth_converter_0_0.tcl
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Thu Mar 26 14:13:55 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_axis_dwidth_converter_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1547.707 ; gain = 127.059 ; free physical = 158 ; free virtual = 18932
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/thifj/923884033883E497/Linux_usable/hls4ml/projeto_hls_saida/myproject_prj/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/thifj/Desktop/Xilinx/2025.1/Vivado/data/ip'.
+Command: synth_design -top design_1_axis_dwidth_converter_0_0 -part xczu7ev-ffvc1156-2-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15428
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2825.121 ; gain = 145.773 ; free physical = 189 ; free virtual = 7221
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_dwidth_converter_0_0' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_0/synth/design_1_axis_dwidth_converter_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_34_axis_dwidth_converter' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:814]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_34_axisc_upsizer' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:434]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_34_axisc_upsizer' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:434]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice__parameterized0' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector__parameterized0' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector__parameterized0' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice__parameterized0' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice__parameterized0' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis__parameterized0' [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis__parameterized0' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice__parameterized0' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_34_axis_dwidth_converter' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:814]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_dwidth_converter_0_0' (0#1) [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_0/synth/design_1_axis_dwidth_converter_0_0.v:53]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[63] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[62] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[61] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[60] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[59] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[58] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[57] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[56] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[55] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[54] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[53] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[52] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[51] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[50] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[49] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[48] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[47] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[46] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[45] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[44] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[43] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[42] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[41] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[40] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[39] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[38] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[37] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[36] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[35] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[34] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[33] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[32] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[31] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[30] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[29] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[28] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[27] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[26] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[25] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[24] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[23] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[22] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[21] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[20] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[19] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[18] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[17] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[16] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[15] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[14] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[13] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[12] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[11] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[10] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[9] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[8] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[7] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[6] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[5] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[4] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[63] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[62] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[61] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[60] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[59] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[58] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[57] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[56] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[55] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[54] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[53] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[52] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[51] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[50] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[49] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[48] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[47] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[46] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[45] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[44] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[43] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[42] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[41] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[40] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[39] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[38] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[37] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[36] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[35] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TUSER[34] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2910.059 ; gain = 230.711 ; free physical = 204 ; free virtual = 6476
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2915.996 ; gain = 236.648 ; free physical = 177 ; free virtual = 6459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2915.996 ; gain = 236.648 ; free physical = 177 ; free virtual = 6459
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2915.996 ; gain = 0.000 ; free physical = 163 ; free virtual = 6428
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_0/design_1_axis_dwidth_converter_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.gen/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_0/design_1_axis_dwidth_converter_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.runs/design_1_axis_dwidth_converter_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.runs/design_1_axis_dwidth_converter_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3032.766 ; gain = 0.000 ; free physical = 210 ; free virtual = 6094
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3032.801 ; gain = 0.000 ; free physical = 201 ; free virtual = 6092
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3032.801 ; gain = 353.453 ; free physical = 182 ; free virtual = 6028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3040.770 ; gain = 361.422 ; free physical = 187 ; free virtual = 6029
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3040.770 ; gain = 361.422 ; free physical = 202 ; free virtual = 6031
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3040.770 ; gain = 361.422 ; free physical = 208 ; free virtual = 6011
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 17    
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 51    
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 3     
+	   2 Input   15 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 3040.770 ; gain = 361.422 ; free physical = 195 ; free virtual = 5924
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 3642.816 ; gain = 963.469 ; free physical = 172 ; free virtual = 2723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 3663.848 ; gain = 984.500 ; free physical = 192 ; free virtual = 2717
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 3663.848 ; gain = 984.500 ; free physical = 183 ; free virtual = 2647
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 233 ; free virtual = 1151
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 240 ; free virtual = 1154
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 270 ; free virtual = 1147
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 273 ; free virtual = 1143
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 288 ; free virtual = 1149
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 291 ; free virtual = 1150
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT2  |     1|
+|3     |LUT3  |     2|
+|4     |LUT4  |    15|
+|5     |LUT5  |     3|
+|6     |LUT6  |     5|
+|7     |MUXF7 |     2|
+|8     |FDRE  |   634|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 295 ; free virtual = 1150
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 3830.660 ; gain = 1034.508 ; free physical = 165 ; free virtual = 1367
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 3830.660 ; gain = 1151.312 ; free physical = 167 ; free virtual = 1367
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3830.660 ; gain = 0.000 ; free physical = 175 ; free virtual = 1355
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3830.660 ; gain = 0.000 ; free physical = 191 ; free virtual = 1402
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 2bf9f92c
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 3830.660 ; gain = 2260.219 ; free physical = 173 ; free virtual = 1372
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1524.550; main = 1518.687; forked = 182.243
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4630.086; main = 3756.977; forked = 966.234
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3830.660 ; gain = 0.000 ; free physical = 176 ; free virtual = 1335
+INFO: [Common 17-1381] The checkpoint '/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.runs/design_1_axis_dwidth_converter_0_0_synth_1/design_1_axis_dwidth_converter_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axis_dwidth_converter_0_0, cache-ID = d9f6bd3b1e49e906
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3830.660 ; gain = 0.000 ; free physical = 230 ; free virtual = 1431
+INFO: [Common 17-1381] The checkpoint '/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/hlsforml/hlsforml.runs/design_1_axis_dwidth_converter_0_0_synth_1/design_1_axis_dwidth_converter_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axis_dwidth_converter_0_0_utilization_synth.rpt -pb design_1_axis_dwidth_converter_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 26 14:14:53 2026...
