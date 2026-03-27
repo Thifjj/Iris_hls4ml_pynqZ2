@@ -5,17 +5,13 @@
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
 
-echo "This script was generated under a different operating system."
-echo "Please update the PATH variable below, before executing this script"
-exit
-
 var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "/home/thifj/Desktop/Xilinx/2025.1/Vitis/bin:/home/thifj/Desktop/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64;/home/thifj/Desktop/Xilinx/2025.1/Vivado/bin;";
+  PathVal = "E:/Xilinix/2025.1/Vitis/bin;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/bin/nt64;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/lib/nt64;E:/Xilinix/2025.1/Vivado/bin;";
 } else {
-  PathVal = "/home/thifj/Desktop/Xilinx/2025.1/Vitis/bin:/home/thifj/Desktop/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64;/home/thifj/Desktop/Xilinx/2025.1/Vivado/bin;" + PathVal;
+  PathVal = "E:/Xilinix/2025.1/Vitis/bin;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/bin/nt64;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/lib/nt64;E:/Xilinix/2025.1/Vivado/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;

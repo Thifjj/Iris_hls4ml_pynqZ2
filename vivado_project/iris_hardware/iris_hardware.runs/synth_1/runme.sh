@@ -7,10 +7,14 @@
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
+exit
+
 if [ -z "$PATH" ]; then
-  PATH=/home/thifj/Desktop/Xilinx/2025.1/Vitis/bin:/home/thifj/Desktop/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64:/home/thifj/Desktop/Xilinx/2025.1/Vivado/bin
+  PATH=E:/Xilinix/2025.1/Vitis/bin;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/bin/nt64;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/lib/nt64:E:/Xilinix/2025.1/Vivado/bin
 else
-  PATH=/home/thifj/Desktop/Xilinx/2025.1/Vitis/bin:/home/thifj/Desktop/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64:/home/thifj/Desktop/Xilinx/2025.1/Vivado/bin:$PATH
+  PATH=E:/Xilinix/2025.1/Vitis/bin;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/bin/nt64;E:/Xilinix/2025.1/Vivado/ids_lite/ISE/lib/nt64:E:/Xilinix/2025.1/Vivado/bin:$PATH
 fi
 export PATH
 
@@ -21,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.runs/synth_1'
+HD_PWD='E:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

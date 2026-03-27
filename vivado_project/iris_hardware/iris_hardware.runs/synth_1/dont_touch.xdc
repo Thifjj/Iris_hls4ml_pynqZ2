@@ -28,298 +28,298 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_ax
 # IP: bd/design_1/ip/design_1_axi_smc_2/design_1_axi_smc_2.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axi_smc_2 || ORIG_REF_NAME==design_1_axi_smc_2} -quiet] -quiet
 
-# Block Designs: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/bd_6e42.bd
+# Block Designs: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/bd_6e42.bd
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_0/bd_6e42_one_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_0/bd_6e42_one_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_1/bd_6e42_psr_aclk_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_1/bd_6e42_psr_aclk_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_2/bd_6e42_arinsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_2/bd_6e42_arinsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_3/bd_6e42_rinsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_3/bd_6e42_rinsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_4/bd_6e42_awinsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_4/bd_6e42_awinsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_5/bd_6e42_winsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_5/bd_6e42_winsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_6/bd_6e42_binsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_6/bd_6e42_binsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_7/bd_6e42_aroutsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_7/bd_6e42_aroutsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_8/bd_6e42_routsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_8/bd_6e42_routsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_9/bd_6e42_awoutsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_9/bd_6e42_awoutsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_10/bd_6e42_woutsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_10/bd_6e42_woutsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_11/bd_6e42_boutsw_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_11/bd_6e42_boutsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_12/bd_6e42_arni_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_12/bd_6e42_arni_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_13/bd_6e42_rni_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_13/bd_6e42_rni_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_14/bd_6e42_awni_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_14/bd_6e42_awni_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_15/bd_6e42_wni_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_15/bd_6e42_wni_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_16/bd_6e42_bni_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_16/bd_6e42_bni_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_17/bd_6e42_s00mmu_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_17/bd_6e42_s00mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_18/bd_6e42_s00tr_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_18/bd_6e42_s00tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_19/bd_6e42_s00sic_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_19/bd_6e42_s00sic_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_20/bd_6e42_s00a2s_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_20/bd_6e42_s00a2s_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_21/bd_6e42_sarn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_21/bd_6e42_sarn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_22/bd_6e42_srn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_22/bd_6e42_srn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_23/bd_6e42_sawn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_23/bd_6e42_sawn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_24/bd_6e42_swn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_24/bd_6e42_swn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_25/bd_6e42_sbn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_25/bd_6e42_sbn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_26/bd_6e42_m00s2a_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_26/bd_6e42_m00s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_27/bd_6e42_m00arn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_27/bd_6e42_m00arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_28/bd_6e42_m00rn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_28/bd_6e42_m00rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_29/bd_6e42_m00awn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_29/bd_6e42_m00awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_30/bd_6e42_m00wn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_30/bd_6e42_m00wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_31/bd_6e42_m00bn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_31/bd_6e42_m00bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_32/bd_6e42_m00e_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_32/bd_6e42_m00e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_33/bd_6e42_m01s2a_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_33/bd_6e42_m01s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_34/bd_6e42_m01arn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_34/bd_6e42_m01arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_35/bd_6e42_m01rn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_35/bd_6e42_m01rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_36/bd_6e42_m01awn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_36/bd_6e42_m01awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_37/bd_6e42_m01wn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_37/bd_6e42_m01wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_38/bd_6e42_m01bn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_38/bd_6e42_m01bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_39/bd_6e42_m01e_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_39/bd_6e42_m01e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_40/bd_6e42_m02s2a_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_40/bd_6e42_m02s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_41/bd_6e42_m02arn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_41/bd_6e42_m02arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_42/bd_6e42_m02rn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_42/bd_6e42_m02rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_43/bd_6e42_m02awn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_43/bd_6e42_m02awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_44/bd_6e42_m02wn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_44/bd_6e42_m02wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_45/bd_6e42_m02bn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_45/bd_6e42_m02bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_46/bd_6e42_m02e_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_46/bd_6e42_m02e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_47/bd_6e42_m03s2a_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_47/bd_6e42_m03s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_48/bd_6e42_m03arn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_48/bd_6e42_m03arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_49/bd_6e42_m03rn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_49/bd_6e42_m03rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_50/bd_6e42_m03awn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_50/bd_6e42_m03awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_51/bd_6e42_m03wn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_51/bd_6e42_m03wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_52/bd_6e42_m03bn_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_52/bd_6e42_m03bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_53/bd_6e42_m03e_0.xci
+# IP: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_53/bd_6e42_m03e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
 # IP: bd/design_1/ip/design_1_rst_ps7_0_100M_3/design_1_rst_ps7_0_100M_3.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_rst_ps7_0_100M_3 || ORIG_REF_NAME==design_1_rst_ps7_0_100M_3} -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_processing_system7_0_0 || ORIG_REF_NAME==design_1_processing_system7_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_myproject_0_0/constraints/myproject_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_myproject_0_0/constraints/myproject_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_axi_gpio_0_0 || ORIG_REF_NAME==design_1_axi_gpio_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_axi_gpio_1_0 || ORIG_REF_NAME==design_1_axi_gpio_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_board.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_axi_gpio_2_0 || ORIG_REF_NAME==design_1_axi_gpio_2_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_board.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_axi_gpio_3_0 || ORIG_REF_NAME==design_1_axi_gpio_3_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_1/bd_6e42_psr_aclk_0_board.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_1/bd_6e42_psr_aclk_0_board.xdc
 # DONT_TOUCH constraint suppressed by parent sub-design file.
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_2/bd_6e42_arinsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_2/bd_6e42_arinsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_3/bd_6e42_rinsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_3/bd_6e42_rinsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_4/bd_6e42_awinsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_4/bd_6e42_awinsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_5/bd_6e42_winsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_5/bd_6e42_winsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_6/bd_6e42_binsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_6/bd_6e42_binsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_7/bd_6e42_aroutsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_7/bd_6e42_aroutsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_8/bd_6e42_routsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_8/bd_6e42_routsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_9/bd_6e42_awoutsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_9/bd_6e42_awoutsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_10/bd_6e42_woutsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_10/bd_6e42_woutsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_11/bd_6e42_boutsw_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_11/bd_6e42_boutsw_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_12/bd_6e42_arni_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_12/bd_6e42_arni_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_13/bd_6e42_rni_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_13/bd_6e42_rni_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_14/bd_6e42_awni_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_14/bd_6e42_awni_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_15/bd_6e42_wni_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_15/bd_6e42_wni_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_16/bd_6e42_bni_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_16/bd_6e42_bni_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_20/bd_6e42_s00a2s_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_20/bd_6e42_s00a2s_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_21/bd_6e42_sarn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_21/bd_6e42_sarn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_22/bd_6e42_srn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_22/bd_6e42_srn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_23/bd_6e42_sawn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_23/bd_6e42_sawn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_24/bd_6e42_swn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_24/bd_6e42_swn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_25/bd_6e42_sbn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_25/bd_6e42_sbn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_26/bd_6e42_m00s2a_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_26/bd_6e42_m00s2a_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_27/bd_6e42_m00arn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_27/bd_6e42_m00arn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_28/bd_6e42_m00rn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_28/bd_6e42_m00rn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_29/bd_6e42_m00awn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_29/bd_6e42_m00awn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_30/bd_6e42_m00wn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_30/bd_6e42_m00wn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_31/bd_6e42_m00bn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_31/bd_6e42_m00bn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_33/bd_6e42_m01s2a_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_33/bd_6e42_m01s2a_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_34/bd_6e42_m01arn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_34/bd_6e42_m01arn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_35/bd_6e42_m01rn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_35/bd_6e42_m01rn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_36/bd_6e42_m01awn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_36/bd_6e42_m01awn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_37/bd_6e42_m01wn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_37/bd_6e42_m01wn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_38/bd_6e42_m01bn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_38/bd_6e42_m01bn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_40/bd_6e42_m02s2a_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_40/bd_6e42_m02s2a_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_41/bd_6e42_m02arn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_41/bd_6e42_m02arn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_42/bd_6e42_m02rn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_42/bd_6e42_m02rn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_43/bd_6e42_m02awn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_43/bd_6e42_m02awn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_44/bd_6e42_m02wn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_44/bd_6e42_m02wn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_45/bd_6e42_m02bn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_45/bd_6e42_m02bn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_47/bd_6e42_m03s2a_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_47/bd_6e42_m03s2a_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_48/bd_6e42_m03arn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_48/bd_6e42_m03arn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_49/bd_6e42_m03rn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_49/bd_6e42_m03rn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_50/bd_6e42_m03awn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_50/bd_6e42_m03awn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_51/bd_6e42_m03wn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_51/bd_6e42_m03wn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_52/bd_6e42_m03bn_0_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/bd_0/ip/ip_52/bd_6e42_m03bn_0_ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/ooc.xdc
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/smartconnect.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_axi_smc_2/smartconnect.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_axi_smc_2 || ORIG_REF_NAME==design_1_axi_smc_2} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_3/design_1_rst_ps7_0_100M_3_board.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_3/design_1_rst_ps7_0_100M_3_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==design_1_rst_ps7_0_100M_3 || ORIG_REF_NAME==design_1_rst_ps7_0_100M_3} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /media/thifj/923884033883E497/Linux_usable/hls4ml/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: e:/Laboratorio/iris_hls4ml_pynqZ2/Iris_hls4ml_pynqZ2/vivado_project/iris_hardware/iris_hardware.gen/sources_1/bd/design_1/design_1_ooc.xdc
