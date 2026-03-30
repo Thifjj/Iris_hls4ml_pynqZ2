@@ -1,4 +1,4 @@
-# 🌸 Acelerador de IA em FPGA: Classificação Iris com hls4ml
+# Acelerador de IA em FPGA: Classificação Iris com hls4ml
 
 Este projeto demonstra a implementação de uma Rede Neural MLP (Multilayer Perceptron) treinada em Keras e acelerada em hardware utilizando um SoC **Zynq-7000 (XC7Z020)** na placa **TUL PYNQ-Z2**.
 
@@ -6,7 +6,7 @@ O fluxo explora o conceito de **Co-Design Hardware-Software**, utilizando a bibl
 
 ---
 
-## 🛠️ Especificações Técnicas
+## Especificações Técnicas
 
 * **Modelo:** MLP (Dense Layers) treinada com o dataset Iris (`.h5`)
 * **Entradas/Saídas:** 4 features → 3 classes (probabilidades)
@@ -20,7 +20,7 @@ O fluxo explora o conceito de **Co-Design Hardware-Software**, utilizando a bibl
 
 ---
 
-## 🚀 Fluxo de Implementação
+## Fluxo de Implementação
 
 ### 1. Conversão e Otimização (hls4ml)
 
@@ -133,7 +133,7 @@ Com os arquivos `.bit` e `.xsa`, o sistema pode ser executado de duas formas:
 
 ---
 
-## 📂 Como Reproduzir
+## Como Reproduzir
 
 1. **HLS**
 
